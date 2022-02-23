@@ -1,2 +1,9 @@
-def add(moment):
-    pass
+from datetime import timedelta
+
+
+def add(moment) -> int:
+    return moment + timedelta (seconds = 10 ** 9)
+
+if __name__ == "__main__":
+    add(moment)
+
