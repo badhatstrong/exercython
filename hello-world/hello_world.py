@@ -1,3 +1,7 @@
-def hello ():
+def hello() -> str:
     return("Hello, World!")
-hello()
+
+
+if __name__ == "__main__":
+    hello()
+
