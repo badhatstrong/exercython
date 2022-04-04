@@ -1,7 +1,7 @@
 !*.py
 !README.md
 */.exercism/*
-idea/*
+/.idea/*
 *.pyc
 HELP.md
 HINTS.md
