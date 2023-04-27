@@ -1,4 +1,4 @@
-def add_prefix_un(word = str) -> str:
+def add_prefix_un(word: str) -> str:
     """
 
     :param word: str of a root word
@@ -10,7 +10,7 @@ def add_prefix_un(word = str) -> str:
     return 'un' + word
 
 
-def make_word_groups(vocab_words):
+def make_word_groups(vocab_words: str) -> str:
     """
 
     :param vocab_words: list of vocabulary words with a prefix.
@@ -24,7 +24,7 @@ def make_word_groups(vocab_words):
     return f' :: {vocab_words[0]}'.join(vocab_words)
 
 
-def remove_suffix_ness(word):
+def remove_suffix_ness(word: str) -> str:
     """
 
     :param word: str of word to remove suffix from.
@@ -35,7 +35,7 @@ def remove_suffix_ness(word):
     return word[0:-5] + 'y' if word[-5] == 'i' else word[0:-4]
 
 
-def adjective_to_verb(sentence, index):
+def adjective_to_verb(sentence, index: str) -> str:
     """
 
     :param sentence: str that uses the word in sentence
